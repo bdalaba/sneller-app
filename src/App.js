@@ -17,7 +17,7 @@ function App() {
         name="Fuel Log"
         url="https://docs.google.com/forms/d/e/1FAIpQLSelK2mYi9R8_10N_1x8VLTwPnW7lDjdBUcafBj4edtwpujMMA/viewform"
       />
-      <Button name="BambooHR" url="https://snellersg.bamboohr.com/home" />
+      <Button name="Request Time Off" url="https://snellersg.bamboohr.com/time_off/requests/create" />
     </div>
   );
 }
