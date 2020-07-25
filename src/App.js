@@ -5,6 +5,7 @@ import MenuButton from './MenuButton';
 import Timecard from './Timecard.js';
 import Fuel from './Fuel.js';
 import Request from './Request.js';
+import Covid from './Covid.js';
 import './App.css';
 
 export default class App extends React.Component {
@@ -42,11 +43,14 @@ export default class App extends React.Component {
           menuVisibility={this.state.menuVisible}
         />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <a href="https://www.snellersg.com">
+            <img src={logo} className="App-logo" alt="logo" />
+          </a>
         </header>
         <Timecard />
         <Fuel />
         <Request />
+        <Covid />
       </div>
     );
   }

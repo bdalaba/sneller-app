@@ -14,15 +14,38 @@ export default class Menu extends React.Component {
         id="menu"
         /*onMouseUp={this.props.handleMenu}*/ className={visibility}
       >
-        <p>Light/Dark</p>
-        <ThemeSwitcher
-          cssSelector="body"
-          switcherColor="#EFF7FF"
-          darkColor="#342E37"
-          lightColor="#F8F1FF"
-          lightTextColor="#342E37"
-          darkTextColor="#F8F1FF"
-        />
+        <ul>
+          <li>
+            <h2>Company Info</h2>
+            <a href="https://www.snellersg.com">
+              <p>Visit Website</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1PzORQkvb45domxwwoO_njvBDjn0X84QK/view">
+              <p>Employee Handbook</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1bHfzVwiX-em7clChlL0klGzS7zSsTZsy/view">
+              <p>COVID-19 Response Plan</p>
+            </a>
+          </li>
+          <li>
+            <h2>Training</h2>
+            <a href="https://docs.google.com/presentation/d/12f4gkiVWMljvXcK2eVzMSqWrWv2bEToN8MmxXOceRfM/present?slide=id.p">
+              <p>BossLM Mobile</p>
+            </a>
+          </li>
+          <li>
+            <h2>Settings</h2>
+            <p>Light/Dark:</p>
+            <ThemeSwitcher
+              cssSelector="body"
+              switcherColor="#EFF7FF"
+              darkColor="#342E37"
+              lightColor="#F8F1FF"
+              lightTextColor="#342E37"
+              darkTextColor="#F8F1FF"
+            />
+          </li>
+        </ul>
       </div>
     );
   }
