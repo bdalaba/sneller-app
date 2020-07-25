@@ -2,13 +2,6 @@
 .App {
   background-color: inherit;
   padding-bottom: 50px;
-
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.App::-webkit-scrollbar {
-  display: none;
 }
 
 .App-logo {
