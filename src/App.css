@@ -2,6 +2,13 @@
 .App {
   background-color: inherit;
   padding-bottom: 50px;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
 }
 
 .App-logo {
@@ -47,7 +54,7 @@ a {
 #menu {
   width: 100vw;
   height: 100vh;
-  padding: 160px 40px 40px 40px;
+  padding: 100px 20px 20px 20px;
   background-color: #1d8fd5;
   position: fixed;
   top: 0;
