@@ -7,7 +7,7 @@ export default class Fuel extends React.Component {
     return (
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSelK2mYi9R8_10N_1x8VLTwPnW7lDjdBUcafBj4edtwpujMMA/viewform">
         <div className="btn">
-          <LocalGasStation />
+          <LocalGasStation style={{ fontSize: 40 }} />
           <p>Fuel Log</p>
         </div>
       </a>

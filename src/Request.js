@@ -7,7 +7,7 @@ export default class Requeset extends React.Component {
     return (
       <a href="https://snellersg.bamboohr.com/time_off/requests/create">
         <div className="btn">
-          <Event />
+          <Event style={{ fontSize: 40 }} />
           <p>Request Time Off</p>
         </div>
       </a>

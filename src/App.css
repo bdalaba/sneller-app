@@ -1,17 +1,22 @@
+/* General */
+.App {
+  background-color: inherit;
+  padding-bottom: 50px;
+}
+
 .App-logo {
   display: block;
   max-width: 75%;
-  margin: 50px auto;
+  margin: 75px auto;
 }
 
 .btn {
   background-color: #1d8fd5;
-  color: #ffffff;
+  color: #f8f1ff;
   width: 80%;
   margin: 30px auto;
-  padding: 10px 0 5px 0;
+  padding: 20px 0 5px 0;
   border-radius: 5px;
-  box-shadow: 3px 3px 3px #686568;
   text-align: center;
   font-size: 1.1rem;
   font-weight: bold;
@@ -27,4 +32,52 @@ a {
 a:hover,
 a:focus {
   background-color: #1771a8;
+}
+
+/* Menu */
+#menuButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: none;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: #c7c4e8;
+}
+
+#menu {
+  width: 100vw;
+  height: 100vh;
+  padding: 160px 40px 40px 40px;
+  background-color: #1d8fd5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.1, 0.5, 1);
+  overflow: scroll;
+  z-index: 1000;
+  text-align: left;
+  color: #f8f1ff;
+}
+
+#menu.hide {
+  transform: translate3d(-200vw, 0, 0);
+}
+
+#menu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow-y: auto;
+}
+
+#menu a {
+  color: #282c34;
+}
+
+#menu p {
+  padding-top: 30px;
+  font-size: 2.1rem;
 }

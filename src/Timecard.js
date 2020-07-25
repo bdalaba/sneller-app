@@ -7,7 +7,7 @@ export default class Timecard extends React.Component {
     return (
       <a href="https://sneller.bosslm.com/lm/mobile/Pages/LoginPage.aspx">
         <div className="btn">
-          <AlarmOn />
+          <AlarmOn style={{ fontSize: 40 }} />
           <p>Clock In/Out</p>
         </div>
       </a>
