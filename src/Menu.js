@@ -36,7 +36,7 @@ export default class Menu extends React.Component {
               <p>Lawn Maintenance</p>
             </a>
             <a href="https://docs.google.com/presentation/d/1IFI5iq8yTsbG5VFspRc-jmEOn-AAACddLqw9l5qbiYA/present?slide=id.g38182816e_05">
-              <p>Sidewalk Shoveling and Ice Melt</p>
+              <p>Sidewalk Shoveling/Ice Melt</p>
             </a>
             <a href="https://docs.google.com/presentation/d/1BzOMRuicd_vhlQM4q89bn1HWzikplvyW9_wuUoCq2lg/present#slide=id.p">
               <p>Truck Ice Melt</p>
