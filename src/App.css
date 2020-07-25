@@ -47,7 +47,7 @@ a {
 #menu {
   width: 100vw;
   height: 100vh;
-  padding: 20px;
+  padding: 0 20px 0 10px;
   background-color: #1d8fd5;
   position: fixed;
   top: 0;
