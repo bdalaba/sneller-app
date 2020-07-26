@@ -47,7 +47,7 @@ a {
 #menu {
   box-sizing: border-box;
   width: 100vw;
-  height: 100vh;
+  height: 100vh !important;
   padding: 30px 0 10px 20px;
   background-color: #1d8fd5;
   position: fixed;
