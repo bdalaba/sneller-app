@@ -58,9 +58,9 @@ export default class Menu extends React.Component {
               cssSelector="body"
               switcherColor="#EFF7FF"
               darkColor="#342E37"
-              lightColor="#F8F1FF"
+              lightColor="#EFF7FF"
               lightTextColor="#342E37"
-              darkTextColor="#F8F1FF"
+              darkTextColor="#EFF7FF"
             />
           </li>
         </ul>
