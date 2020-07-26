@@ -3,7 +3,9 @@ import logo from './img/sneller-logo.png';
 import Menu from './Menu';
 import MenuButton from './MenuButton';
 import Timecard from './Timecard.js';
+import Inspection from './Inspection.js';
 import Fuel from './Fuel.js';
+import Maintenance from './Maintenance.js';
 import Request from './Request.js';
 import Covid from './Covid.js';
 import './App.css';
@@ -48,7 +50,9 @@ export default class App extends React.Component {
           </a>
         </header>
         <Timecard />
+        <Inspection />
         <Fuel />
+        <Maintenance />
         <Request />
         <Covid />
       </div>
