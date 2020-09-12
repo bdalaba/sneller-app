@@ -41,15 +41,6 @@ export default class Menu extends React.Component {
             <a href="https://docs.google.com/presentation/d/1BzOMRuicd_vhlQM4q89bn1HWzikplvyW9_wuUoCq2lg/present#slide=id.p">
               <p>Truck Ice Melt</p>
             </a>
-            <a href="https://docs.google.com/presentation/d/10Vh1w4PnDSO6Fn-xl1eO8fuFtURaTYYcWFawMLkSgzs/present?slide=id.g34b5061cf_00">
-              <p>Plow Operator</p>
-            </a>
-            <a href="https://docs.google.com/presentation/d/1tEwx5GWrnGyX6qilsau3hk7Vodua_pXyCIQ2mKvfPbc/present#slide=id.p">
-              <p>Bobcat/Loader Operator</p>
-            </a>
-            <a href="https://docs.google.com/presentation/d/1c6fX_XIYsQHwdyeL4ZO7kgQS2r8YD3YM8PD8Fk8KuKk/present#slide=id.p">
-              <p>Quad/RTV Operator</p>
-            </a>
           </li>
           <li>
             <h2>Settings</h2>
