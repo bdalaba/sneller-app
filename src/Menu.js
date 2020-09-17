@@ -28,21 +28,6 @@ export default class Menu extends React.Component {
             </a>
           </li>
           <li>
-            <h2>Training</h2>
-            <a href="https://docs.google.com/presentation/d/12f4gkiVWMljvXcK2eVzMSqWrWv2bEToN8MmxXOceRfM/present?slide=id.p">
-              <p>BossLM Mobile</p>
-            </a>
-            <a href="https://docs.google.com/presentation/d/1r3rp5Caiij09YXaAq4jBa8On8niPvUEI3v6f9AGlIIg/edit">
-              <p>Lawn Maintenance</p>
-            </a>
-            <a href="https://docs.google.com/presentation/d/1IFI5iq8yTsbG5VFspRc-jmEOn-AAACddLqw9l5qbiYA/present?slide=id.g38182816e_05">
-              <p>Sidewalk Shoveling/Ice Melt</p>
-            </a>
-            <a href="https://docs.google.com/presentation/d/1BzOMRuicd_vhlQM4q89bn1HWzikplvyW9_wuUoCq2lg/present#slide=id.p">
-              <p>Truck Ice Melt</p>
-            </a>
-          </li>
-          <li>
             <h2>Settings</h2>
             <p>Light/Dark:</p>
             <ThemeSwitcher

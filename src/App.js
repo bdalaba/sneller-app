@@ -7,7 +7,6 @@ import Inspection from './Inspection.js';
 import Fuel from './Fuel.js';
 import Maintenance from './Maintenance.js';
 import Request from './Request.js';
-import Covid from './Covid.js';
 import './App.css';
 
 export default class App extends React.Component {
@@ -54,7 +53,6 @@ export default class App extends React.Component {
         <Fuel />
         <Maintenance />
         <Request />
-        <Covid />
       </div>
     );
   }
